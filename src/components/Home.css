@@ -1,0 +1,30 @@
+/* Home.css */
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../home-bg1.png');
+    background-size:inherit;
+    background-position: center;
+  }
+  
+  .content {
+    text-align: center;
+    color: white;
+  }
+  
+  .welcome-text {
+    font-size: 2em; 
+  }
+  
+  .name-text {
+    font-size: 2.5em;
+    margin: 15px;
+  }
+  
+  .role-text {
+    font-size: 1.5em;
+  }
+  

@@ -1,0 +1,15 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../about-bg.png");
+    background-size:cover;
+    background-position: center;
+    
+  }
+  
+  .about-content {
+    text-align: center;
+    color: white;
+  }

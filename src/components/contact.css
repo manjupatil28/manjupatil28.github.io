@@ -1,0 +1,31 @@
+.contact-links{
+    /* background-image: url('../about-bg.png'); */
+    background-size:inherit;
+    background-position: center;
+    /* height: 100vh; */
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    background-image: url('../about-bg.png');
+    background-size:inherit;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+}
+.button{
+    color: white;
+    border: 1px solid black;
+}

@@ -1,0 +1,24 @@
+.portfolio-container
+{   display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../about-bg.png");
+    background-size:cover;
+    background-position: center;
+    color: white;
+    padding-top: 50px;
+}
+.portfolio-content{
+    text-align: center;
+    color: white;
+    display: flex;
+    
+    
+}
+.company-section {
+    width: 48%; 
+    padding: 20px; 
+    border: 1px solid #ccc;
+  }

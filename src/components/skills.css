@@ -1,0 +1,129 @@
+.skills {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 20px;
+  /* height: 100vh; */
+  background-image: url("../about-bg.png");
+  background-size: cover;
+  background-position: center;
+  padding-top: 40px;
+  
+}
+.category-wrapper{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: max-content;
+  margin-top: 50px;
+  
+}
+.title1{
+  margin-top: -100px;
+}
+/* 
+.title2{
+  margin-top: -5px;
+} */
+.title3{
+  margin-top: 20px;
+}
+.category {
+  width: 350px;
+  display: flex;
+  flex-grow:unset;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  margin-bottom: 40px;
+  color: white;
+  border: 1px solid white;
+  height: 500px;
+ }
+ .category-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  /* border: 1px solid white */
+ }
+.skill {
+  margin-bottom: 15px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  padding-bottom: 10px;
+  
+
+}
+.skill:hover {
+  transform: translateY(-15px); /* Adjust the lift-up distance as needed */
+}
+.react {
+  background-image: url("../images/react.png");
+}
+
+.node {
+  background-image: url("../images/node.png");
+}
+
+.express {
+  background-image: url("../images/express.png");
+}
+
+.mongodb {
+  background-image: url("../images/mongo.png");
+  background-size: 85%;
+  background-repeat: no-repeat;
+}
+.html{
+  background-image: url("../images/html.png");
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+.css{
+  background-image: url("../images/css.png");
+}
+.sass{
+  background-image: url("../images/sass.png");
+}
+.redux{
+  background-image: url("../images/redux.png");
+}
+.sql{
+  background-image: url("../images/sql.png");
+}
+.c{
+  background-image: url("../images/C.png");
+}
+.cpp{
+  background-image: url("../images/Cpp.jpg");
+}
+.java{
+  background-image: url("../images/java.png");
+}
+.js{
+  background-image: url("../images/js.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+}
+/* .title1{
+  margin-top: -100px;
+}
+.title3{
+  margin-top: 95px;
+} */
