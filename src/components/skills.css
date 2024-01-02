@@ -6,7 +6,8 @@
   align-items: center;
   gap: 40px;
   padding: 20px;
-  /* height: 100vh; */
+  min-height:100vh;
+  height: auto;
   background-image: url("../about-bg.png");
   background-size: cover;
   background-position: center;
